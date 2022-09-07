@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		918512BC28C945890011EC4F /* asimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512BB28C945890011EC4F /* asimApp.swift */; };
+		918512BE28C945890011EC4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512BD28C945890011EC4F /* ContentView.swift */; };
+		918512C028C9458B0011EC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918512BF28C9458B0011EC4F /* Assets.xcassets */; };
+		918512C328C9458B0011EC4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918512C228C9458B0011EC4F /* Preview Assets.xcassets */; };
+		918512CE28C9458B0011EC4F /* asimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512CD28C9458B0011EC4F /* asimTests.swift */; };
+		918512D828C9458B0011EC4F /* asimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512D728C9458B0011EC4F /* asimUITests.swift */; };
+		918512DA28C9458B0011EC4F /* asimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512D928C9458B0011EC4F /* asimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		918512CA28C9458B0011EC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918512B028C945890011EC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918512B728C945890011EC4F;
+			remoteInfo = asim;
+		};
+		918512D428C9458B0011EC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918512B028C945890011EC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918512B728C945890011EC4F;
+			remoteInfo = asim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		918512B828C945890011EC4F /* asim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		918512BB28C945890011EC4F /* asimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asimApp.swift; sourceTree = "<group>"; };
+		918512BD28C945890011EC4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		918512BF28C9458B0011EC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918512C228C9458B0011EC4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		918512C428C9458B0011EC4F /* asim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = asim.entitlements; sourceTree = "<group>"; };
+		918512C928C9458B0011EC4F /* asimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918512CD28C9458B0011EC4F /* asimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asimTests.swift; sourceTree = "<group>"; };
+		918512D328C9458B0011EC4F /* asimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918512D728C9458B0011EC4F /* asimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asimUITests.swift; sourceTree = "<group>"; };
+		918512D928C9458B0011EC4F /* asimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918512B528C945890011EC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918512C628C9458B0011EC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918512D028C9458B0011EC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		918512AF28C945890011EC4F = {
+			isa = PBXGroup;
+			children = (
+				918512BA28C945890011EC4F /* asim */,
+				918512CC28C9458B0011EC4F /* asimTests */,
+				918512D628C9458B0011EC4F /* asimUITests */,
+				918512B928C945890011EC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		918512B928C945890011EC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918512B828C945890011EC4F /* asim.app */,
+				918512C928C9458B0011EC4F /* asimTests.xctest */,
+				918512D328C9458B0011EC4F /* asimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918512BA28C945890011EC4F /* asim */ = {
+			isa = PBXGroup;
+			children = (
+				918512BB28C945890011EC4F /* asimApp.swift */,
+				918512BD28C945890011EC4F /* ContentView.swift */,
+				918512BF28C9458B0011EC4F /* Assets.xcassets */,
+				918512C428C9458B0011EC4F /* asim.entitlements */,
+				918512C128C9458B0011EC4F /* Preview Content */,
+			);
+			path = asim;
+			sourceTree = "<group>";
+		};
+		918512C128C9458B0011EC4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				918512C228C9458B0011EC4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		918512CC28C9458B0011EC4F /* asimTests */ = {
+			isa = PBXGroup;
+			children = (
+				918512CD28C9458B0011EC4F /* asimTests.swift */,
+			);
+			path = asimTests;
+			sourceTree = "<group>";
+		};
+		918512D628C9458B0011EC4F /* asimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				918512D728C9458B0011EC4F /* asimUITests.swift */,
+				918512D928C9458B0011EC4F /* asimUITestsLaunchTests.swift */,
+			);
+			path = asimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918512B728C945890011EC4F /* asim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918512DD28C9458B0011EC4F /* Build configuration list for PBXNativeTarget "asim" */;
+			buildPhases = (
+				918512B428C945890011EC4F /* Sources */,
+				918512B528C945890011EC4F /* Frameworks */,
+				918512B628C945890011EC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asim;
+			productName = asim;
+			productReference = 918512B828C945890011EC4F /* asim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		918512C828C9458B0011EC4F /* asimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918512E028C9458B0011EC4F /* Build configuration list for PBXNativeTarget "asimTests" */;
+			buildPhases = (
+				918512C528C9458B0011EC4F /* Sources */,
+				918512C628C9458B0011EC4F /* Frameworks */,
+				918512C728C9458B0011EC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918512CB28C9458B0011EC4F /* PBXTargetDependency */,
+			);
+			name = asimTests;
+			productName = asimTests;
+			productReference = 918512C928C9458B0011EC4F /* asimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		918512D228C9458B0011EC4F /* asimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918512E328C9458B0011EC4F /* Build configuration list for PBXNativeTarget "asimUITests" */;
+			buildPhases = (
+				918512CF28C9458B0011EC4F /* Sources */,
+				918512D028C9458B0011EC4F /* Frameworks */,
+				918512D128C9458B0011EC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918512D528C9458B0011EC4F /* PBXTargetDependency */,
+			);
+			name = asimUITests;
+			productName = asimUITests;
+			productReference = 918512D328C9458B0011EC4F /* asimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918512B028C945890011EC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					918512B728C945890011EC4F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					918512C828C9458B0011EC4F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 918512B728C945890011EC4F;
+					};
+					918512D228C9458B0011EC4F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 918512B728C945890011EC4F;
+					};
+				};
+			};
+			buildConfigurationList = 918512B328C945890011EC4F /* Build configuration list for PBXProject "asim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 918512AF28C945890011EC4F;
+			productRefGroup = 918512B928C945890011EC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918512B728C945890011EC4F /* asim */,
+				918512C828C9458B0011EC4F /* asimTests */,
+				918512D228C9458B0011EC4F /* asimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918512B628C945890011EC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918512C328C9458B0011EC4F /* Preview Assets.xcassets in Resources */,
+				918512C028C9458B0011EC4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918512C728C9458B0011EC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918512D128C9458B0011EC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918512B428C945890011EC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918512BE28C945890011EC4F /* ContentView.swift in Sources */,
+				918512BC28C945890011EC4F /* asimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918512C528C9458B0011EC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918512CE28C9458B0011EC4F /* asimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918512CF28C9458B0011EC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918512DA28C9458B0011EC4F /* asimUITestsLaunchTests.swift in Sources */,
+				918512D828C9458B0011EC4F /* asimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		918512CB28C9458B0011EC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918512B728C945890011EC4F /* asim */;
+			targetProxy = 918512CA28C9458B0011EC4F /* PBXContainerItemProxy */;
+		};
+		918512D528C9458B0011EC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918512B728C945890011EC4F /* asim */;
+			targetProxy = 918512D428C9458B0011EC4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		918512DB28C9458B0011EC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		918512DC28C9458B0011EC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		918512DE28C9458B0011EC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = asim/asim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"asim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaki.asim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		918512DF28C9458B0011EC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = asim/asim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"asim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaki.asim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		918512E128C9458B0011EC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaki.asimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asim.app/Contents/MacOS/asim";
+			};
+			name = Debug;
+		};
+		918512E228C9458B0011EC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaki.asimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asim.app/Contents/MacOS/asim";
+			};
+			name = Release;
+		};
+		918512E428C9458B0011EC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaki.asimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = asim;
+			};
+			name = Debug;
+		};
+		918512E528C9458B0011EC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaki.asimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = asim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918512B328C945890011EC4F /* Build configuration list for PBXProject "asim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918512DB28C9458B0011EC4F /* Debug */,
+				918512DC28C9458B0011EC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918512DD28C9458B0011EC4F /* Build configuration list for PBXNativeTarget "asim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918512DE28C9458B0011EC4F /* Debug */,
+				918512DF28C9458B0011EC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918512E028C9458B0011EC4F /* Build configuration list for PBXNativeTarget "asimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918512E128C9458B0011EC4F /* Debug */,
+				918512E228C9458B0011EC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918512E328C9458B0011EC4F /* Build configuration list for PBXNativeTarget "asimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918512E428C9458B0011EC4F /* Debug */,
+				918512E528C9458B0011EC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 918512B028C945890011EC4F /* Project object */;
+}
