@@ -14,6 +14,11 @@
 		918512CE28C9458B0011EC4F /* asimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512CD28C9458B0011EC4F /* asimTests.swift */; };
 		918512D828C9458B0011EC4F /* asimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512D728C9458B0011EC4F /* asimUITests.swift */; };
 		918512DA28C9458B0011EC4F /* asimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512D928C9458B0011EC4F /* asimUITestsLaunchTests.swift */; };
+		918512E828C9E7C90011EC4F /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512E728C9E7C90011EC4F /* Stock.swift */; };
+		918512EB28C9E8800011EC4F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512EA28C9E8800011EC4F /* Webservice.swift */; };
+		918512EF28C9E9F00011EC4F /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512EE28C9E9F00011EC4F /* StockListViewModel.swift */; };
+		918512F128C9E9FA0011EC4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512F028C9E9FA0011EC4F /* Constants.swift */; };
+		918512F528C9F0870011EC4F /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918512F428C9F0870011EC4F /* Double+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,12 @@
 		918512D328C9458B0011EC4F /* asimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918512D728C9458B0011EC4F /* asimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asimUITests.swift; sourceTree = "<group>"; };
 		918512D928C9458B0011EC4F /* asimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		918512E728C9E7C90011EC4F /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		918512EA28C9E8800011EC4F /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		918512EE28C9E9F00011EC4F /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
+		918512F028C9E9FA0011EC4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		918512F228C9F02D0011EC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		918512F428C9F0870011EC4F /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +106,12 @@
 		918512BA28C945890011EC4F /* asim */ = {
 			isa = PBXGroup;
 			children = (
+				918512F328C9F0790011EC4F /* Extensions */,
+				918512F228C9F02D0011EC4F /* Info.plist */,
+				918512ED28C9E9DE0011EC4F /* Utils */,
+				918512EC28C9E99F0011EC4F /* View Models */,
+				918512E928C9E8690011EC4F /* Services */,
+				918512E628C9E7BE0011EC4F /* Models */,
 				918512BB28C945890011EC4F /* asimApp.swift */,
 				918512BD28C945890011EC4F /* ContentView.swift */,
 				918512BF28C9458B0011EC4F /* Assets.xcassets */,
@@ -127,6 +144,46 @@
 				918512D928C9458B0011EC4F /* asimUITestsLaunchTests.swift */,
 			);
 			path = asimUITests;
+			sourceTree = "<group>";
+		};
+		918512E628C9E7BE0011EC4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				918512E728C9E7C90011EC4F /* Stock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		918512E928C9E8690011EC4F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				918512EA28C9E8800011EC4F /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		918512EC28C9E99F0011EC4F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				918512EE28C9E9F00011EC4F /* StockListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		918512ED28C9E9DE0011EC4F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				918512F028C9E9FA0011EC4F /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		918512F328C9F0790011EC4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				918512F428C9F0870011EC4F /* Double+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +318,11 @@
 			files = (
 				918512BE28C945890011EC4F /* ContentView.swift in Sources */,
 				918512BC28C945890011EC4F /* asimApp.swift in Sources */,
+				918512F528C9F0870011EC4F /* Double+Extensions.swift in Sources */,
+				918512EB28C9E8800011EC4F /* Webservice.swift in Sources */,
+				918512E828C9E7C90011EC4F /* Stock.swift in Sources */,
+				918512EF28C9E9F00011EC4F /* StockListViewModel.swift in Sources */,
+				918512F128C9E9FA0011EC4F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +484,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"asim/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = asim/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +510,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"asim/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = asim/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
