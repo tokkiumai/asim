@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     @StateObject private var vm: StockListViewModel
     
     init(vm: StockListViewModel) {

@@ -9,7 +9,6 @@ import SwiftUI
 
 @main
 struct asimApp: App {
-    
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     
     var body: some Scene {
@@ -21,7 +20,6 @@ struct asimApp: App {
 }
                         
 class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
-    
                 private var statusItem: NSStatusItem!
                 private var popover: NSPopover!
                 
