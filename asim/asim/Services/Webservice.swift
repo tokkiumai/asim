@@ -12,7 +12,6 @@ enum NetworkError: Error {
 }
 
 class Webservice {
-    
     func getStocks(url: URL) async throws -> [Stock] {
         let (data, response) = try await URLSession.shared.data(from: url)
         
@@ -23,5 +22,4 @@ class Webservice {
         
         return try JSONDecoder().decode([Stock].self, from: data)
     }
-    
 }
