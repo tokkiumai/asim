@@ -8,7 +8,6 @@
 import Foundation
 
 struct StockViewModel {
-    
     private var stock: Stock
     
     init(stock: Stock) {
@@ -26,16 +25,13 @@ struct StockViewModel {
     var price: Double {
         stock.price
     }
-    
 }
 
 @MainActor
 class StockListViewModel: ObservableObject {
-    
     @Published var stocks: [StockViewModel] = []
     
     func populateStocks() async {
-        
         do {
             let stocks = try await Webservice().getStocks(url: Constants.Urls.latestStocks)
             
@@ -43,7 +39,5 @@ class StockListViewModel: ObservableObject {
         } catch {
             print(error)
         }
-        
     }
-    
 }
